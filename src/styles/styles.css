@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    font-family: "Madimi One", sans-serif;
+    position: relative;
+}
+
+.input-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+h1 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    font-style: normal;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+p,
+li {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 1.15;
+    margin: .5;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+    font-style: italic;
+    text-indent: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.brewery-information {
+    text-indent: 20px;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: 500;
+}
+.font-headings {
+    font-family: "Madimi One", sans-serif;
+    color: var(--color-primary)
+}
+.font-text {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: #ffffff;
+    color: #2a2a2a;
+    align-items: center;
+}
+
+.skinny {
+    font-size: 14px;
+    padding: 20px 40px;
+    text-align: center;
+    gap: 20px;
+    padding: 10px;
+}
+  
+button, input[type="text"] {
+    background: #9ccfd1;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 30px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+img {
+    max-width: 50%;
+    padding: 5px;
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+}
+  
+li {
+    margin-bottom: 5px;
+}
+  
+
+button, input[type="text"] {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+  
+button:hover, input[type="text"]:hover {
+    background:#47aebf;
+}
+  
+button:focus, input[type="text"]:focus {
+    outline: none;
+}
+  
+input[type="text"] {
+    width: 300px;
+}
+  
+.container {
+    height: 100vh;
+    padding-bottom: 50px; /* Adjust as needed */
+    box-sizing: border-box;
+}
+  
+
+button, input[type="text"] {
+    margin: 10px;
+}
+  
+@media screen and (max-width: 768px) {
+    button, input[type="text"] {
+      width: 100%;
+      margin: 10px 0; 
+    }
+  }
+  
